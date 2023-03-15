@@ -1,0 +1,5 @@
+# Netlify configuration file to redirect all requests to the SPA index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
